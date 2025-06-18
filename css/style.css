@@ -164,7 +164,7 @@ img {
 .about-section{
   background-image: url(../images/about.png);
   background-size: 62% auto;
-  background-position: left center;
+  background-position: left top;
   background-repeat: no-repeat;
   background-color: #E2E6ED;
 }
@@ -369,6 +369,12 @@ footer a {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-color: #E2E6ED;
+}
+
+@media (min-width: 1400px) {
+  .platform-section {
+    background-position: right 130%;
+  }
 }
 
 @media (max-width: 1400px) {
